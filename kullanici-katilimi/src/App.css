@@ -1,0 +1,52 @@
+* {
+	color: black;
+}
+
+.App {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+	margin: 100px auto;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	padding: 30px;
+	align-items: center;
+	background-color: rgba(0, 0, 255, 0.169);
+	border-radius: 20px;
+}
+h2 {
+	color: black;
+	text-align: center;
+}
+label {
+	margin-top: 30px;
+	align-self: flex-start;
+	display: flex;
+}
+
+button {
+	margin: 20px auto;
+}
+
+.list {
+	border: 2px solid blueviolet;
+	border-radius: 20px;
+	background-color: antiquewhite;
+	width: 30%;
+	margin: 50px auto;
+}
+.list li {
+	margin: 10px;
+}
+
+.team {
+	display: flex;
+	background-color: aquamarine;
+	justify-content: center;
+	text-align: center;
+}
